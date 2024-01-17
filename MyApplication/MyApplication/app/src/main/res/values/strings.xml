@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DB2</string>
+    <string name="url">http://10.248.57.246/PHPandSQL/</string>
+</resources>

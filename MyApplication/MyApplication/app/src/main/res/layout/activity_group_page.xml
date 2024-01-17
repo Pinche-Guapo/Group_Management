@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Enrolled_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Enrolled Groups" />
+
+    <TextView
+        android:id="@+id/tv_meeting_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_meeting_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_time_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_meeting_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/delete_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="f_delete_group"
+        android:text="Delete Group"
+        tools:text="Delete Group" />
+
+    <Button
+        android:id="@+id/material_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="material_listing"
+        android:text="Material List"
+        tools:text="Material List" />
+    <Button
+        android:id="@+id/group_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group List"
+        tools:text="Group List" />
+
+
+
+</LinearLayout>
